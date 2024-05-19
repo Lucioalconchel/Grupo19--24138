@@ -1,0 +1,37 @@
+/*-------------------GENERAL--------------------*/
+body {
+    background-color: whitesmoke;
+    margin: 0;
+  }
+  
+/*----------NAVEGACIÓN Y PIE DE PÁGINA----------*/
+header, footer {
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo a {
+    text-decoration: none;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo img, footer img {
+    height: 10vw;
+    width: auto;
+}
+
+nav, footer {
+    display: flex;
+    align-items: center;
+}
+
+nav a, footer a {
+    color: silver;
+    margin: 10px;
+    text-decoration: none;
+}
