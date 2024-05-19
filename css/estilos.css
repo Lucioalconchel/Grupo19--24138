@@ -2,7 +2,12 @@
 body {
     background-color: whitesmoke;
     margin: 0;
-  }
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
   
 /*----------NAVEGACIÓN Y PIE DE PÁGINA----------*/
 header, footer {
@@ -34,4 +39,13 @@ nav a, footer a {
     color: silver;
     margin: 10px;
     text-decoration: none;
+}
+
+/*------------------CARRUSEL--------------------*/
+.carousel-item {
+    height: 80vh; /* Esto es para eliminar en Mobile */
+}
+
+.carousel img {
+    height: 100%;
 }
