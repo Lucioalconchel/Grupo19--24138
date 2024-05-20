@@ -1,6 +1,7 @@
 /*-------------------GENERAL--------------------*/
 body {
-    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ebe2e2;
     margin: 0;
 }
 
@@ -8,13 +9,18 @@ h2 {
     text-align: center;
     padding: 10px;
 }
-  
+
+p {
+    text-align: justify;
+}
+
 /*----------NAVEGACIÓN Y PIE DE PÁGINA----------*/
 header, footer {
     background-color: black;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    font-size: 100%;
 }
 
 .logo a {
@@ -48,4 +54,13 @@ nav a, footer a {
 
 .carousel img {
     height: 100%;
+}
+
+/*------------------NOSOTROS--------------------*/
+.nosotros {
+    color: #efecec;
+    background: rgba(64, 35, 4, 0.822);
+    padding: 20px;
+    margin: 20px 5%;
+    border-radius: 10px;
 }
