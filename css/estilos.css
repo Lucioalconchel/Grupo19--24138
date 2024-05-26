@@ -84,11 +84,12 @@ nav a, footer a {
 
 /*------------------CONTACTO--------------------*/
 .form-register, .form-login{
-    width: 400px;
+    width: 35%;
     background: #24303c;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
