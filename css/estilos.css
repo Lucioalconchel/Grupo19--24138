@@ -36,6 +36,7 @@ header, footer {
 .logo img, footer img {
     height: 10vw;
     width: auto;
+    
 }
 
 nav, footer {
@@ -59,28 +60,25 @@ nav a, footer a {
 }
 
 /*------------------NOSOTROS--------------------*/
-.nosotros, .mapa {
+.titulo-sobre{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.nosotros {
     color: #efecec;
     background: rgba(64, 35, 4, 0.822);
     padding: 15px;
     margin: 5px 5%;
     border-radius: 10px;
+    text-align: center;
 }
 
 .nosotros img {
     float: left;
 }
 
-.mapa {
-    display: flex;
-    align-items: center;
-    margin: 5px 5%;
-}
-
-.mapa iframe {
-    margin-left: 2%;
-    border: 0;
-}
 
 /*------------------CONTACTO--------------------*/
 .form-register, .form-login{
@@ -138,4 +136,48 @@ nav a, footer a {
     color: white;
     margin: 16px 0;
     font-size: 16px;
+}
+
+.mapa{
+    padding: 3em 0;
+
+}
+
+.mapa p{
+   
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+.titulo-mapa{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+.parrafo-mapa{
+    text-align: center;
+    margin: 0 0 2em;
+
+}
+.redes_sociales {
+    text-align: center; /* Centrar el contenido */
+}
+
+.redes_sociales a {
+    display: inline-block; /* Alinear los elementos en línea */
+    margin: 0 10px; /* Agregar espacio entre los elementos */
+    color: black; /* Cambiar el color a negro */
+}
+
+.redes_sociales a i {
+    font-size: 32px; /* Tamaño de fuente más grande para los iconos */
+}
+@media screen and (max-width:480px){
+     .mapa-contenido {
+        width: auto;
+    }
 }
