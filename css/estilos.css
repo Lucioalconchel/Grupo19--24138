@@ -49,6 +49,11 @@ nav a, footer a {
     margin: 10px;
     text-decoration: none;
 }
+
+nav a:hover, footer a:hover {
+    color: white;
+}
+
 /*------------------CARRUSEL--------------------*/
 .carousel-item {
     height: 80vh;
